@@ -1,0 +1,164 @@
+.rnm_agent_logo_a_container
+{
+    width: 300px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.rnm_agent_logo_a_left
+{
+    /*height: calc(100% - 20px);*/
+    width: 80px;
+    float:left;
+    border: 1px solid #000;
+    margin: 10px 10px 10px 10px;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    line-height: normal;
+    padding: 0px 5px 0px 5px;
+}
+.rnm_agent_logo_a_right
+{
+    height: 100%;
+    float:left;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 7px 17px 0px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    /*width: calc(300px - 120px);*/
+    max-width: calc(100% - 100px);
+}
+.rnm_agent_logo_a_top
+{
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.rnm_agent_logo_a_bottom
+{
+    font-size: 11px;
+    letter-spacing:1px;
+    margin-top: 0;
+    padding-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.rnm_agent_logo_a_v1 .rnm_agent_logo_a_left
+{
+    display: none;
+}
+.rnm_agent_logo_a_v1 .rnm_agent_logo_a_right
+{
+    border: none;
+    padding: 10px 0px 0px 5px;
+    margin: 0px 0px 0px 5px;
+    width: auto;
+    height: 60px;
+    max-width: calc(100% - 35px);
+}
+.rnm_agent_logo_a_v1 .rnm_agent_logo_a_top
+{
+    font-weight: 700;
+    line-height: 20px;
+    border-top: 1px solid #000;
+}
+.rnm_agent_logo_a_v1 .rnm_agent_logo_a_bottom
+{
+    border-bottom: 1px solid #000;
+    padding-left: 20px;
+}
+.rnm_agent_logo_a_v2 .rnm_agent_logo_a_left, .rnm_agent_logo_a_v2 .rnm_agent_logo_a_top
+{
+    font-family: 'Playfair Display',sans-serif;
+}
+.rnm_agent_logo_a_v2 .rnm_agent_logo_a_left
+{
+    font-family: 'Playfair Display',sans-serif;
+    border: none;
+    border-right: 1px solid #000;
+    margin: 10px 10px 10px 0px;
+}
+.rnm_agent_logo_a_v3 .rnm_agent_logo_a_top
+{
+    font-family: 'Playfair Display',sans-serif;
+}
+.rnm_agent_logo_a_v3 .rnm_agent_logo_a_left
+{
+    border: none;
+    border-right: 1px solid #000;
+    width: 10px;
+    height: 50px;
+    padding: 0px 5px 10px 5px;
+    margin: 10px 10px 10px 10px;
+}
+.rnm_agent_logo_a_v3 .rnm_agent_logo_a_left span
+{
+    visibility: hidden;
+}
+.rnm_agent_logo_a_v3 .rnm_agent_logo_a_right
+{
+    width: auto;
+    max-width: calc(100% - 35px);
+}
+.rnm_agent_logo_a_v4 .rnm_agent_logo_a_left
+{
+    display: none;
+}
+.rnm_agent_logo_a_v4 .rnm_agent_logo_a_right
+{
+    font-family: 'Playfair Display',sans-serif;
+    border: 1px solid #000;
+    border: none;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 0px 0px 5px;
+    height: 60px;
+    width: auto;
+    max-width: calc(100% - 35px);
+}
+.rnm_agent_logo_a_v4 .rnm_agent_logo_a_top
+{
+    line-height: 35px;
+    border-bottom: 1px solid #000;
+}
+.rnm_agent_logo_a_v5 .rnm_agent_logo_a_right
+{
+    border: 0px solid #000;
+    border-left: none;
+    padding: 0px 15px 0px 5px;
+    margin: 5px 0px 0px 0px;
+    width: auto;
+    height: 60px;
+    max-width: calc(100% - 90px);
+}
+    
+    <div id="navbar_top_simple_continer">
+        <div class="navbar_top_simple_left">
+                    <div class="navbar_text_logo">
+                        <div class="rnm_agent_logo_a_white">
+                            <div class="rnm_agent_logo_a_v2">
+                                <div class="rnm_agent_logo_a_container">
+                                    <a href="/">
+                                        <div class="rnm_agent_logo_a_left">
+                                            <span>SR</span>
+                                        </div>
+                                        <div  class="rnm_agent_logo_a_right">
+                                            <div class="rnm_agent_logo_a_top">Safaa</div>
+                                            <div class="rnm_agent_logo_a_bottom"><span>Realty</span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
